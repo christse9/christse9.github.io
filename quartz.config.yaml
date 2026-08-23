@@ -154,8 +154,8 @@ plugins:
       position: left
       priority: 50
   - source: "@quartz-community/graph"
-    enabled: true
-    layout:
+    enabled: false
+      layout:
       position: right
       priority: 10
   - source: "@quartz-community/search"
@@ -219,10 +219,7 @@ plugins:
       priority: 10
   - source: "@quartz-community/footer"
     enabled: true
-    options:
-      links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+
     layout:
       position: footer
       priority: 50
