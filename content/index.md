@@ -1,6 +1,7 @@
 ---
-title: Welcome to Quartz
+title: mathmathmath
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+[[01 Algebraic Structurese]]
+[[02 Linear Algebra]]
+[[03 Vector Spaces]]
