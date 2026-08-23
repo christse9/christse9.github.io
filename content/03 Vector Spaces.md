@@ -1,4 +1,7 @@
 [[02 Linear Algebra]]
+
+---
+
 # Defining vectors
 
 A **vector** is traditionally an object in *coordinate geometry* that has **magnitude and direction**.

@@ -1,3 +1,5 @@
+[[02 Linear Algebra]]
+
 The determinant is a function that is defined **only** for square matrices.
 
 The result of this function is a single number associated with it, and as will be shown, it informs us a lot about that matrix's behavior.
@@ -64,6 +66,26 @@ e.g. $\begin{bmatrix}1 & 2 & -49253 \\  0 & 0 & 4 \\  2 & 1 & 99\end{bmatrix}$
 Rather than taking the top row, we can choose the middle row and immediately reduce it to just $4 \begin{bmatrix}1 & 2 \\  2 & 1\end{bmatrix}=4(1-4)=-12$
 
 This also quickly shows that **if ANY row or column has only 0s, then the determinant is zero**.
+
+# Row and Column Operations
+
+A row operation is any $- + \div \times$ between one row and the other.
+It is written as $R_{n}=R_{n}(+ - \div \times)aR_{j}$
+
+e.g.
+$\begin{pmatrix}1 & 2 \\  3 & 4\end{pmatrix} \xrightarrow{R_{1}\to R_{1}+2R_{2}}\begin{pmatrix}7 & 10 \\  3 & 4\end{pmatrix}$.
+
+This changes the matrix, however, the determinant stays the same.
+4-6 = 28 - 30 = -2
+
+As a transform, this does change coordinates differently, however, the transformation from one to the other is a **shear transformation**. So the area is preserved, thus the determinant value is unchanged.
+
+Thus, **any row operation on a determinant does not affect its value**.
+And so, if we spot rows with convenient numbers, we can create zeroes.
+e.g.
+$\begin{bmatrix}1 & 2 \\  4 & 8\end{bmatrix} \xrightarrow{R_{2}\to R_{2}-4R_{1}}\begin{bmatrix}1 & 2 \\  0 & 0\end{bmatrix}=0$
+
+Because $\det(A)=\det(A^{t})$, we can interchangably do such operations both **between rows**, and **between columns.**
 
 # Value of the determinant
 
