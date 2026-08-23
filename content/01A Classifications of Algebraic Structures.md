@@ -1,6 +1,7 @@
 [[01 Algebraic Structures]]
 
 Depending on which common axioms are defined in a structure, it is given a classification.
+(μην μαθεις τα πάντα εδώ απ' έξω)
 
 ### Semi-Group $(A,\oplus)$
 - Closure: $a,b\in A \to (a \oplus b)\in A$

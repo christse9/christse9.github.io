@@ -52,8 +52,10 @@ They should **not** be confused with *logical axioms*, e.g.:
 if $a=b$ and $b=c$ then $a=c$
 
 The axioms in a structure are *strictly about the operations*.
-Above, we called a set **closed** under an operation, because it satisfied what we call the **Closure axiom**: $\forall x,y\in \mathbb{N}\to(x+y)\in \mathbb{N}$.
-If x,y in N, then (x+y) is also in N
+
+Above, we called a set **closed** under an operation, because it satisfied what we call the **Closure axiom**:
+$\forall x,y\in \mathbb{N}\to(x+y)\in \mathbb{N}$.
+If all x,y are natural numbers, then (x+y) is a natural number.
 
 [[01A Classifications of Algebraic Structures]]
 
