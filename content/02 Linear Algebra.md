@@ -40,7 +40,7 @@ $tr(A)=\sum_{i=1}^{n}a_{ii}$
 [[02A Matrix Operations]]
 [[02B Types of Matrices]]
 [[02C Matrix Exponentiation]]
-[[02D Determinant]]
+[[02E Determinant]]
 
 
 [[03 Vector Spaces]]
