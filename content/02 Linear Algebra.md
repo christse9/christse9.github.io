@@ -43,4 +43,4 @@ $tr(A)=\sum_{i=1}^{n}a_{ii}$
 [[02E Determinant]]
 
 
-[[03 Vector Spaces]]
+[[03 Vector Spaces]] | unfinished

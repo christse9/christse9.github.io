@@ -18,6 +18,13 @@ If $AB=BA$:
 
 # Question
 
+Let
+$A=\begin{pmatrix}1&1\\0&1\end{pmatrix}$
+Compute $A^2-3A+2I.$
+Then, determine $A^n$.
+
+---
+
 The Fibonnaci sequence defines two base values, $F_{1}=1$ and $F_{0}=0$,
 and then every other element in the sequence is defined by $F_{n}= F_{n-1}+F_{n-2}$.
 
@@ -40,5 +47,8 @@ $$
 Find $F_{17}$.
 
 With the method you used in the above exercise, how many multiplications would you really need to do to calculate the $2^{30}+1th$ fibonacci number?
+
+---
+
 
 [[02E Determinant]]

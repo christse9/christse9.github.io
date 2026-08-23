@@ -121,4 +121,39 @@ Thus, if $\det = 0$:
 - At least one dimension collapses.
 - The matrix is **not invertible**.
 
+- This is called a singular matrix
+
 [[02F Inverse Matrix]]
+
+# Properties of determinants.
+
+Assuming $A\in M_{n}$
+- $\det(I)=1$
+- $\det(A^{t})=\det(A)$
+- $\det(AB)=\det(A)\det (B)$
+- $\det(A^{k})=\det(A)^{k}$
+- $\det(cA)=c^{n}det (A)$
+- $\det(A^{-1})=\frac{1}{\det(A)}$ (Where $A^{-1}$ is the [[02F Inverse Matrix]]).
+### Row operation properties:
+- Any $R_{i}\to R_{i}+cR_{j}, i\neq j\to det(A_{new})=\det(A)$
+- $R_{i}\leftrightarrow R_{j} \to \det(A_{new})=-\det(A)$
+- $R_{i}\to cR_{i}\to \det(A_{new})=c\det(A)$
+Same for columns.
+
+---
+# Questions
+Find the value $a$ so that $\det(A)=0$
+$$A= \begin{pmatrix} 1&2&3\\ 2&a&4\\ 1&1&a \end{pmatrix}$$
+
+---
+Solve without cofactor expansion.
+$$ \det \begin{pmatrix} 1&2&3&4\\ 2&4&6&8\\ 1&3&4&5\\ 3&6&9&12 \end{pmatrix} $$
+
+---
+Suppose $A\in M_{4}$ with $\det(A)=-3$
+Determine:
+$\det(A^{t})$
+$\det(2A)$
+$\det(A^{-1})$
+$\det(A^{3})$
+$\det(-A)$

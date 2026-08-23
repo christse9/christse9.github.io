@@ -52,3 +52,10 @@ How a matrix affects the scale of the space it's applied to is a property is lea
 # Shear transform
 A shear transformation changes the shape, but conserves the area.
 ![[Pasted image 20260824000457.png#invert]]
+
+# A non-linear transformation
+A non-linear transformation cannot be encoded in a matrix, because matrices, by design, are linear.
+Thus, transformations in general are described as something like $T(x,y)=(2x,y+3)$
+A non-linear transformation would be something like: $T(x,y)=(xy,y))$
+xy is not a linear term, so something like this is impossible to describe in linear algebra through a standard matrix.
+Thus, different tricks are used. For example, the Jacobian transformation which is used when switching between two coordinate systems, approximates the area locally as linear through calculus infinitesimals.

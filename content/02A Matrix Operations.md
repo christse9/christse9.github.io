@@ -152,3 +152,5 @@ Every element is **mirrored** AND **the complex conjugate** of themselves.
  get used to doing these fast:
 1) $2\begin{pmatrix}0 & 2 & 3 \\  4 & 0 & 0\end{pmatrix}\begin{pmatrix}1 & 0 \\  0 & 0 \\ 5 & 6\end{pmatrix}= \ ?$
 2) $\begin{pmatrix}1-2i & i \\  0 & 1\end{pmatrix}^{\dagger}\begin{pmatrix}1-2i & i \\  0 & 1\end{pmatrix}$
+3) Let $$ A= \begin{pmatrix} 1&2\\ a&3 \end{pmatrix}, \qquad B= \begin{pmatrix} 2&-1\\ 1&b \end{pmatrix}. $$ Find all $a,b\in \mathbb{R}$ such that $$ AB=BA. $$
+4) 
