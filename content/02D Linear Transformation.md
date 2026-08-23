@@ -3,7 +3,8 @@
 Linear algebra is heavily used in computer graphics due to one geometrical application of a matrix, linear transformation.
 
 Suppose we have a grid with these 5 points on a 2D.
-![[Pasted image 20260823163307.png|348]]
+
+![[Pasted image 20260823163307.png|#invert]]
 
 Thsese points, like vectors, are represented with their two coordinates as $\begin{pmatrix}x \\  y\end{pmatrix}$
 $\begin{pmatrix}0 \\  1\end{pmatrix},\begin{pmatrix}0 \\  0\end{pmatrix},\begin{pmatrix}1 \\  0\end{pmatrix},\begin{pmatrix}1 \\  1\end{pmatrix},\begin{pmatrix}0.5 \\  0.5\end{pmatrix}$
@@ -21,7 +22,7 @@ By repeating this process for every coordinate, the new coordinates become these
 $\begin{pmatrix}0 \\  3\end{pmatrix},\begin{pmatrix}0 \\  0\end{pmatrix},\begin{pmatrix}2 \\  0\end{pmatrix},\begin{pmatrix}2 \\  3\end{pmatrix},\begin{pmatrix}1 \\  1.5\end{pmatrix}$
 
 Through the multiplication with that matrix, we have mapped these coordinates to a new set of coordinates.
-![[Pasted image 20260823164620.png]]
+![[Pasted image 20260823164620.png|#invert]]
 
 In effect, for any point $u=\begin{pmatrix}x \\  y\end{pmatrix}$: $A\cdot u=\begin{pmatrix}2x \\  3y\end{pmatrix}$.
 We've discovered that the diagonal matrix $A$ **scales** space when we apply it to every point inside it.
@@ -48,6 +49,6 @@ So any coordinate becomes $a=2x+3y=\begin{pmatrix}a+b \\  c+d\end{pmatrix}$.
 The rotation matrix in 2D is this: $\begin{pmatrix}\cos \theta & -\sin \theta \\  \sin \theta  & \cos \theta\end{pmatrix}$
 This maps coordinates to a rotation θ degrees counter-clockwise around the origin point (0,0), without affecting the scale.
 
-![[Pasted image 20260823194424.png]]
+![[Pasted image 20260823194424.png|#invert]]
 
 How a matrix affects the scale of the space it's applied to is a property is learned through its [[02E Determinant|determinant]].
