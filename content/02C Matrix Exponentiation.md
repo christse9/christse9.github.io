@@ -39,6 +39,6 @@ F_{0}
 $$
 Find $F_{17}$.
 
-With the method you used in the above exercise, how many multiplications would you really need to do to calculate the $2^{30}+1th$ fibonacci number?
+With the method you used in the above exercise, how many multiplications would you really need to do to calculate the $2^{30}+1st$ fibonacci number?
 
 [[02D Determinant]]
