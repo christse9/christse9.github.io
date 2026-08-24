@@ -45,7 +45,9 @@ $AA^{t}=A^{t}A=I$
 
 ### Hermitian Matrix
 A matrix $M_{n}(\mathbb{C})$ that satisfies:
-$A^{*}=A$
+$A^{\dag}=A$
+
+
 
 ### Invertible Matrix
 A matrix $A\in M_{n}(K)$ for which exists a matrix $A^{-1}\in M_{n}(K)$:

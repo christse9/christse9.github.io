@@ -9,9 +9,12 @@ The key idea is:
 
 The notation of an algebraic structure is (Set, Operations)
 
-An example is the structure of arithmetic $(\mathbb{R},+,*)$we intuitively use.
+An example is the structure of arithmetic $(\mathbb{R},+,*)$ we intuitively use.
+
 The **set** is the set of **real numbers**, $\mathbb{R}$
+
 One of the defined **operations** is **addition** $+$
+
 One of the axioms is $(a+b) + c = a + (b+c)$
 
 # Sets and Operations
