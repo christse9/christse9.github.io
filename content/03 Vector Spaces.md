@@ -34,7 +34,7 @@ As will be seen later on, as vectors can have as many dimensions as they want, a
 
 Examples of vector spaces include $\mathbb{R}^2$, the two-dimensional cartesian vector space, and similarly $\mathbb{R}^3$, the 3D one.
 
-![[Pasted image 20260819212030.png|contr|425]]
+![[Pasted image 20260819212030.png|#invert]]
 
 The above is a geometric representation of a vector $\vec{OP}$ in $\mathbb{R}^3$.
 
