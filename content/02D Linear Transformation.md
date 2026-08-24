@@ -3,7 +3,10 @@
 Linear algebra is heavily used in computer graphics due to one geometrical application of a matrix, linear transformation.
 
 Suppose we have a grid with these 5 points on a 2D.
+
+
 ![[Pasted image 20260823163307.png|#invert]]
+
 
 Thsese points, like vectors, are represented with their two coordinates as $\begin{pmatrix}x \\  y\end{pmatrix}$
 $\begin{pmatrix}0 \\  1\end{pmatrix},\begin{pmatrix}0 \\  0\end{pmatrix},\begin{pmatrix}1 \\  0\end{pmatrix},\begin{pmatrix}1 \\  1\end{pmatrix},\begin{pmatrix}0.5 \\  0.5\end{pmatrix}$
